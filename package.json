@@ -1,0 +1,23 @@
+{
+  "name": "sauce-slack-webhook",
+  "description": "Translates Sauce webhook and send to Slack webhook",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha --t 40000",
+    "deploy": "gcloud run deploy"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "author": "Sauce Labs",
+  "dependencies": {
+    "axios": "0.27.2",
+    "express": "^4.17.1",
+    "moment": "2.29.3"
+  },
+  "devDependencies": {
+    "mocha": "10.0.0"
+  }
+}
