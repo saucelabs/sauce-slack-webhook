@@ -9,6 +9,7 @@ The instructions below takes you through creating the Slack Incoming Webhook, de
 3. Integrate with Sauce Labs Webhook
 
 ## 1. Create Slack Incoming Webhook
+![slack-incoming-webhook](./images/slack-incoming-webhook.png)
 - Add apps (under Apps at bottom)
 - Search 'Incoming Webhooks'
 - Click Add under 'Incoming Webhooks' under Available Apps
@@ -30,7 +31,7 @@ The instructions below takes you through creating the Slack Incoming Webhook, de
 - Note the Service URL = `serviceURL`
 
 ## 3. Integrate with Sauce Labs Webhook
-![slack-incoming-webhook](./images/slack-incoming-webhook.png)
+![saucelabs-webhook](./images/saucelabs-webhook.png)
 - Login to Sauce Labs [https://accounts.saucelabs.com/](https://accounts.saucelabs.com/)
 - Go to [https://app.saucelabs.com/integrations](https://app.saucelabs.com/integrations)
 - Enable Webhooks
