@@ -15,7 +15,7 @@
   "dependencies": {
     "axios": "0.27.2",
     "express": "^4.17.1",
-    "moment": "2.29.3"
+    "moment": "2.29.4"
   },
   "devDependencies": {
     "mocha": "10.0.0"
