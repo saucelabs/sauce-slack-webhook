@@ -1,6 +1,11 @@
 # sauce-slack-webhook
 
 This Cloud Run service written in nodejs receives Sauce Labs webhooks, and converts and sends them to a Slack Incoming Webhook URL.
+
+![passing_test](./images/passing_test.png)
+
+![failing_test](./images/failing_test.png)
+
 The instructions below takes you through creating the Slack Incoming Webhook, deploying the service to Google Cloud, and hooking it up with Sauce Labs' webhook mechanism.
 
 ## Instructions
@@ -20,9 +25,10 @@ The instructions below takes you through creating the Slack Incoming Webhook, de
 
 ## 2. Deploy to Google Cloud
   ### Pre-requisite: Setup Google Cloud
-- create a Google Cloud project - [https://cloud.google.com/resource-manager/docs/creating-managing-projects](https://cloud.google.com/resource-manager/docs/creating-managing-projects)
 - install gcloud - [https://cloud.google.com/sdk/docs/install](https://cloud.google.com/sdk/docs/install)
-- initialize gcloud - [https://cloud.google.com/sdk/docs/initializing](https://cloud.google.com/sdk/docs/initializing)
+- gcloud init - [https://cloud.google.com/sdk/docs/initializing](https://cloud.google.com/sdk/docs/initializing)
+- gcloud auth login
+- gcloud projects create `PROJECT_ID` - [https://cloud.google.com/resource-manager/docs/creating-managing-projects](https://cloud.google.com/resource-manager/docs/creating-managing-projects)
 - gcloud config set project `PROJECT_ID`
 ### Build and deploy to Google Cloud
 - npm install
